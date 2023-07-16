@@ -1,0 +1,1 @@
+sudo qemu-system-x86_64 -boot d -cdrom CorePlus-current.iso      -device rtl8139,netdev=rope0,mac=52:54:00:4e:69:63      -netdev bridge,id=rope0,br=br0
